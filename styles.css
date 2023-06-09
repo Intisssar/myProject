@@ -1,0 +1,65 @@
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+ 
+}
+
+main {
+  padding: 20px;
+}
+header {
+  background-color: black;
+  color: lightpink;
+  padding: 20px;
+}
+
+#backgroundOverlay {
+  background-image: url( "https://www.dogalize.com/wp-content/uploads/2017/05/funny-cat-img.jpg");
+  background-color: lightgray;
+  background-blend-mode: overlay;
+  background-size: auto ;
+  background-position: center ;
+}
+
+#backgroundOverlay main {
+  
+  padding: 20px;
+}
+
+header {
+  position: relative;
+}
+
+header img {
+  position: relative;
+  top: 10px;
+  left: 10px;
+  width: 10px;
+  height: 20px;
+}
+
+header h1 {
+  margin-left: 70px; /* Adjust the margin to create space for the logo */
+}
+
+
+#productContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.productCard {
+  width: 200px;
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid black;
+}
+
+footer {
+  background-color: lightslategray;
+  padding: 10px;
+  text-align: center;
+}
